@@ -304,12 +304,13 @@ export const chords = {
     genres: ["J-Pop", "ロック"],
     desc: "G-D-Em-C進行でよく使われる重要コード",
     fingers: [
-      { string: 4, fret: 4, finger: 3 },
-      { string: 3, fret: 4, finger: 4 },
+      { string: 2, fret: 3, finger: 2 },
+      { string: 3, fret: 4, finger: 3 },
+      { string: 4, fret: 4, finger: 4 },
     ],
     barre: { fret: 2, finger: 1, fromString: 1, toString: 5 },
     muted: [6], open: [], minFret: 2, maxFret: 5,
-    tips: "人差し指で5弦〜1弦をセーハ。Fコードより弦が細いので比較的楽"
+    tips: "人差し指で1〜5弦を2フレットでセーハ。中指で2弦3フレット、薬指・小指で3弦・4弦の4フレットを押さえる"
   },
   Fm: {
     name: "F#m", fullName: "F#マイナー（嬰ヘ短調）", category: "barre",
@@ -342,14 +343,15 @@ export const chords = {
     name: "Cm", fullName: "Cマイナー", category: "barre",
     usageFreq: 2, difficulty: 4,
     genres: ["J-Pop", "バラード"],
-    desc: "短調の曲でよく登場。AmのバレーコードバージョンをEbに",
+    desc: "短調の曲でよく登場。Am型バレーコードを3フレットに移動した形",
     fingers: [
-      { string: 4, fret: 5, finger: 3 },
-      { string: 3, fret: 5, finger: 4 },
+      { string: 2, fret: 4, finger: 2 },
+      { string: 3, fret: 5, finger: 3 },
+      { string: 4, fret: 5, finger: 4 },
     ],
     barre: { fret: 3, finger: 1, fromString: 1, toString: 5 },
     muted: [6], open: [], minFret: 3, maxFret: 6,
-    tips: "3フレットにBm型（Am型）バレーコード。フレットが高い分少し楽"
+    tips: "人差し指で1〜5弦を3フレットでセーハ。中指で2弦4フレット、薬指・小指で3弦・4弦の5フレットを押さえる"
   },
 
   // ─── ジャズコード ──────────────────────────────────────────
