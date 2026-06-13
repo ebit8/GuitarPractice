@@ -1,3 +1,7 @@
+# 目的
+1. Claude Codeで何か作りたかったから。
+2. コード表をいちいち調べるのが面倒くさいから。
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
